@@ -1,0 +1,149 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <h1 class="text-upcrrcase">Tutorial about form</h1>
+    <hr>
+    <h3>ฟอร์มบันทึกข้อมูล</h3>
+    <form action="">
+         <fieldset>
+            <legend>text field</legend>
+        <label for="fname">name</label>
+        <input type="text" name="fname"id="fname" placeholder="กรอกชื่อ">
+<br>
+
+        <label for="lname">lastname</label>
+        <input type="text" name="lname"id="lname">
+<br>
+        <label for="age">age</label>
+        <input type="number" name="age"id="age">  
+        
+        <label for="age2">age</label>
+        <input type="number" name="age2"id="age2" min="0" max="120">
+<br>
+        <label for="email">email</label>
+        <input type="email" name="email"id="email"
+        value="a@gmali.com" readonly>
+<br>
+        <label for="date">date</label>
+        <input type="date" name="date"id="date">
+
+        </fieldset>
+    </form>
+
+       <form action="https://itmember166.000webhostapp.com/process_form.php" method="post">
+        <fieldset style="background-color: aqua;">
+            <legend>Text Fled</legend>
+
+            <label for="fristname">frist name</label>
+            <input type="text" name="input_name" id="fristname">
+            <br>
+            <label for="mail">Email</label>
+            <input type="email" name="input_email" id="mail">
+            <br>
+            <input type="submit">
+        </fieldset>
+       </form>
+            
+                
+       <form action="https://itmember166.000webhostapp.com/process_form.php" method="post">
+            <fieldset>
+                <legend>Radio Button</legend>
+                <label for="">เพศ</label>
+                <input type="radio" name="input_gender" id="male" value="male">
+                <label for="male">ชาย</label>
+                <input type="radio" name="input_gender" id="female" value="female">
+                <label for="female">หญิง</label>
+                <br><br>
+                <input type="submit" value="ยืนยัน">
+
+            </fieldset>
+         </form>
+         <form action="https://itmember166.000webhostapp.com/process_form.php" method="post">
+            <fieldset>
+                <legend>Check Box</legend>
+                <p>Choose Favarsit Web Language</p>
+                <input type="checkbox"  name="f-language1" id="html" value="html">
+                <label for="html">HTML</label>
+                <br>
+                <input type="checkbox"  name="f-language2" id="css" value="css">
+                <label for="css">CSS</label>
+                <br>
+                <input type="checkbox"  name="f-language3"  id="java" value="java">
+                <label for="java">JavaScrip</label>
+                <br>
+                <input type="submit" value="ยืนยัน">
+            </fieldset>
+         </form>
+         <form action="https://itmember166.000webhostapp.com/process_form.php" method="post">
+            <fieldset>
+                <legend>Drop Dowm List</legend>
+                <p>Choose Your Province</p>
+                <select name="province" id="province" size="5" multiple>
+                    <option value="นครปฐม">นครปฐม</option>
+                    <option value="ขอนแก่น">ขอนแก่น</option>
+                    <option value="สมุทรปราการ">สมุทรปราการ</option>
+                </select>
+                <br>
+                <input type="submit" value="ยืนยัน">
+
+            </fieldset>
+         </form>
+
+         <form action="https://itmember166.000webhostapp.com/process_form.php" method="post">
+            <fieldset>
+                <legend>Data List</legend>
+                <p>กรุณาเลือกหรือพิมบราวเซอร์ที่ท่านเคยใช้</p>
+                <input list="browsers" name="browser">
+            <datalist id="browsers">
+                <option value="Chromse">
+                <option value="Edge">
+                <option value="Firefox">
+            </datalist>
+                <br><br>
+                <input type="submit" value="ยืนยัน">
+
+            </fieldset>
+         </form>
+
+         <form action="https://itmember166.000webhostapp.com/process_form.php" method="post">
+            <fieldset>
+                <legend>Text Area</legend>
+               <label for="">Address</label>
+               <textarea name="address" id="11" cols="30" rows="10"></textarea>
+               
+                <br><br>
+                <input type="submit" value="ยืนยัน">
+                <input type="reset" value="ล้างข้อมูล">
+            </fieldset>
+         </form>
+
+         <form action="https://itmember166.000webhostapp.com/process_form.php" method="post">
+            <fieldset>
+                <legend>Color</legend>
+               <label for="color">Choose Color</label>
+               <input type="color" name="color" id="color">
+
+                <br><br>
+                <input type="submit" value="ยืนยัน">
+                <input type="reset" value="ล้างข้อมูล">
+            </fieldset>
+         </form>
+
+         <form action="https://itmember166.000webhostapp.com/process_form.php" method="post">
+            <fieldset>
+                <legend>Upload File</legend>
+                <label for="upload">Choose file</label>
+                <input type="file" name="upload" id="upload">
+               
+                <br><br>
+                <input type="submit" value="ยืนยัน">
+                <input type="reset" value="ล้างข้อมูล">
+            </fieldset>
+         </form>
+</body>
+</html>
