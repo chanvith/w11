@@ -1,0 +1,18 @@
+.button{
+    background-color: green;
+    padding: 8px 20px;
+    border-radius: 30px;
+    margin-right: 20px;
+    display: inline-block;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .text-upcrrcase{
+        text-transform: uppercase;
+        color: purple;
+    }
+    input{
+        margin-top: 4px;
+    }

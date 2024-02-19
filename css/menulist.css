@@ -1,0 +1,19 @@
+
+ul{
+    background-color: rgba(105, 7, 7, 0.932);
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+li{
+    list-style: none;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    background-color: plum;
+    padding: 10px 0px;
+}
